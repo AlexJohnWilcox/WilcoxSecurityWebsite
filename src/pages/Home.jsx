@@ -9,7 +9,7 @@ export function Home() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3 }}
-      className="relative h-screen -mt-[73px] flex items-center overflow-hidden"
+      className="relative h-screen -mt-[86px] flex items-center overflow-hidden"
     >
       {/* Background image */}
       <div
@@ -17,16 +17,16 @@ export function Home() {
         style={{ backgroundImage: `url(${heroBg})` }}
       />
 
-      {/* Cream gradient overlay */}
+      {/* Gradient overlay */}
       <div
         className="absolute inset-0"
         style={{
-          background: 'linear-gradient(90deg, rgba(250,248,245,0.96) 0%, rgba(250,248,245,0.88) 38%, rgba(250,248,245,0.45) 65%, rgba(250,248,245,0.15) 100%)',
+          background: 'linear-gradient(90deg, rgba(245,240,232,0.96) 0%, rgba(245,240,232,0.88) 38%, rgba(245,240,232,0.45) 65%, rgba(245,240,232,0.15) 100%)',
         }}
       />
 
       {/* Hero content */}
-      <div className="relative z-10 px-6 md:px-12 pt-[73px] max-w-3xl">
+      <div className="relative z-10 px-6 md:px-12 pt-[86px] max-w-3xl">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

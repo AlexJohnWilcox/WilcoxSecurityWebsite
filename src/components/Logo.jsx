@@ -30,16 +30,16 @@ function ShieldDiamond({ size = 30, dark = true }) {
 export function Logo({ dark = true, size = 'default' }) {
   const textColor = dark ? 'text-text-primary' : 'text-gray-100'
   const mutedColor = dark ? 'text-text-muted' : 'text-gray-400'
-  const svgSize = size === 'small' ? 20 : 30
+  const svgSize = size === 'small' ? 22 : 38
 
   return (
-    <div className="flex items-center gap-2.5">
+    <div className="flex items-center gap-3">
       <ShieldDiamond size={svgSize} dark={dark} />
-      <div className="flex items-center gap-2">
-        <span className={`font-oswald text-[20px] font-bold tracking-[0.06em] ${textColor}`}>
+      <div className="flex items-center gap-2.5">
+        <span className={`font-oswald text-[24px] font-bold tracking-[0.06em] ${textColor}`}>
           WILCOX
         </span>
-        <span className={`font-oswald text-[12px] font-light tracking-[0.2em] ${mutedColor}`}>
+        <span className={`font-oswald text-[14px] font-light tracking-[0.2em] ${mutedColor}`}>
           SECURITY
         </span>
       </div>

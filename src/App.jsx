@@ -30,7 +30,7 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-cream">
+      <div className="min-h-screen bg-[#f5f0e8]">
         <AnimatedRoutes />
       </div>
     </BrowserRouter>
